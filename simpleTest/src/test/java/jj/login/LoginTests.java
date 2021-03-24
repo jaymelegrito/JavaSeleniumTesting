@@ -8,7 +8,7 @@ import jj.pages.LoginPage;
 import jj.pages.SecureAreaPage;
 
 public class LoginTests extends BaseTests {
-
+    
     @Test
     public void testSuccessfullLogin(){
         LoginPage loginPage = homePage.clickFormAuthentication();
