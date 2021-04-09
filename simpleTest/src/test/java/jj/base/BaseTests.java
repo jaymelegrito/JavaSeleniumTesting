@@ -29,6 +29,7 @@ public class BaseTests {
 
         //System.setProperty("webdriver.chrome.driver", "resources/chromedriver.exe");
         driver = new ChromeDriver();
+        //driver.manage().timeouts().implicitlyWait(time, unit) -> used in project level so be careful!
         goHome();
     }
 
